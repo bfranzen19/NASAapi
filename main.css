@@ -1,3 +1,30 @@
-h1 {
+h1, h2, h3 {
   text-align: center;
+}
+
+ul {
+  list-style: none;
+  columns: 2
+}
+
+.bullets{
+  margin: 25px;
+  position: relative;
+  padding-left: 10px;
+}
+
+.results{
+  display: table;
+  clear: both;
+  text-align: justify;
+}
+
+p {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+html {
+  background-color: #EFEFEF;
+  font-family: serif;
 }
